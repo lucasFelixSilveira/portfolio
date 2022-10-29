@@ -1,0 +1,157 @@
+.logo {
+    width: 30%;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1280px) {
+    #image {
+        display: none;
+    }
+    #content_ {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteiner h1 {
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 140px;
+    }
+    
+    .conteiner h2 {
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 45px;
+        color: #ccc;
+    }
+    #wy-me {
+        width: 100%;
+        height: 100vh;
+        margin-top: 20px;
+        background: url('../img/wy-me\ background\ mobile.jpg');
+        background-size: 100vh 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .ajustar-bordas {
+        width: 100%;
+    }
+    
+    .wy-content {
+        color: #fff;
+        font-family: 'Roboto Condensed';
+        font-size: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .params {
+        color: #fff;
+        font-family: 'Roboto';
+        text-align: left;
+        margin-left: 90px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .params div h2 {
+        font-family: 'Poppins';
+        color: #6F34ad;
+        letter-spacing: 10px;
+        font-size: 100px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .params div h3 {
+        font-family: 'Roboto';
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .no-margin {
+        margin-left: -90px;
+        margin-top: 10px;
+    }
+}
+@media  (min-width: 1280px) {
+    #content_ {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin-left: 80px;
+    }
+    .conteiner h1 {
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 70px;
+    }
+    
+    .conteiner h2 {
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 30px;
+        color: #ccc;
+    }
+    #wy-me {
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        background: url('../img/wy-me\ background.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .ajustar-bordas {
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+    }
+    
+    .wy-content {
+        color: #fff;
+        font-family: 'Roboto Condensed';
+        font-size: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .params {
+        color: #fff;
+        font-family: 'Roboto';
+        text-align: left;
+        margin-left: 70px;
+        display: flex;
+        align-items: center;
+        width: 60%;
+    }
+    
+    .params div h2 {
+        font-family: 'Poppins';
+        color: #6F34ad;
+        letter-spacing: 10px;
+    }
+}
+
+#content_ div {
+    color: #fff;
+}
+
+#projects {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
